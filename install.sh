@@ -11,6 +11,7 @@ mkdir -p $INSTALL_DIR
 
 echo "Installing extension files in $INSTALL_DIR/power-menu@e6ad2020"
 cp -r power-menu@e6ad2020 $INSTALL_DIR
+rm -r $INSTALL_DIR/power-menu@e6ad2020/po
 
 # Compile translations
 mkdir -p $INSTALL_DIR/power-menu@e6ad2020/locale/ar/LC_MESSAGES

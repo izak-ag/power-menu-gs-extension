@@ -23,4 +23,7 @@ zip -r "../$EXT_ID.zip" . \
     -x ".gitignore" \
     -x ".git/*"
 
+# 3. Clear compiled translations
+rm -r locale
+
 echo "Build complete: $EXT_ID.zip"
