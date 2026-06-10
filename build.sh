@@ -24,6 +24,6 @@ zip -r "../$EXT_ID.zip" . \
     -x ".git/*"
 
 # 3. Clear compiled translations
-rm -r locale
+rm -rf -- "locale"
 
 echo "Build complete: $EXT_ID.zip"
